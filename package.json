@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "prepare-env": "npm run apply-prisma-migration && npm run apply-hasura-metadata",
-    "export-hasura-medatada": "hasura metadata export",
+    "export-hasura-metadata": "hasura metadata export",
     "apply-hasura-metadata": "hasura metadata apply",
     "apply-prisma-migration": "prisma migrate dev"
   },
